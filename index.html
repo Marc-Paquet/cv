@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Marc Paquet - Développeur JavaScript</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Btn flottant gauche petit menu -->
+
+    <div class="btn-rond-menu">
+      <div class="cont-ligne">
+        <div class="ligne-unique"></div>
+      </div>
+    </div>
+
+    <!-- Navigation verticale -->
+
+    <nav class="nav-gauche">
+      <div class="blocs-menu">
+        <div class="cercle-portrait">
+          <img
+            src="ressources/profil_recadre.jpg"
+            alt="portrait image de profil"
+          />
+        </div>
+      </div>
+
+      <div class="blocs-menu">
+        <span class="nav-menu-item">
+          <a href="#accueil"> Accueil </a>
+        </span>
+      </div>
+      <div class="blocs-menu">
+        <span class="nav-menu-item">
+          <a href="#pres"> Présentation </a>
+        </span>
+      </div>
+
+      <div class="blocs-menu">
+        <span class="nav-menu-item">
+          <a href="#range"> Compétences </a>
+        </span>
+      </div>
+      <div class="blocs-menu">
+        <span class="nav-menu-item">
+          <a href="#contact"> Contact </a>
+        </span>
+      </div>
+
+      <div class="blocs-menu">
+        <div class="logo-cercle">
+          <a href="mailto:marc.paquet.1973@gmail.com">
+            <img src="ressources/contact.svg" alt="logo contact" />
+          </a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Section Accueil -->
+
+    <section class="accueil" id="accueil">
+      <h1>Bienvenue</h1>
+      <p class="txt-animation"></p>
+      <a href="#exp" class="btn-acc btn-acc2">Expériences</a>
+
+      <div class="medias">
+        <a href="https://github.com/Marc-Paquet" target="blank">
+          <div class="media media1">
+            <img
+              src="ressources/github.svg"
+              alt="github icone"
+              class="icone-medias"
+            />
+          </div>
+        </a>
+        <a href="https://linkedin.com/in/marc-paquet-frontend" target="blank">
+          <div class="media media2">
+            <img
+              src="ressources/linkedin.svg"
+              alt="linkedin icone"
+              class="icone-medias"
+            />
+          </div>
+        </a>
+      </div>
+
+      <a href="#pres">
+        <div class="btn-rond">
+          <img
+            src="ressources/arrowDown.svg"
+            alt="logo fleche bas"
+            class="logo-btn-rond-acc"
+          />
+        </div>
+      </a>
+    </section>
+
+    <!-- Section Présentation -->
+
+    <section class="presentation" id="pres">
+      <h2 class="titre-pres">Avant tout, passioné !</h2>
+
+      <div class="container-presentation">
+        <div class="fond-forme"></div>
+
+        <div class="pres-gauche">
+          <h3>
+            Mon expérience s’articule autour de trois axes :
+          </h3>
+          <hr />
+          <p>
+            Comme infographiste l’acquisition de nouvelles compétences a rythmé
+            mon quotidien. La formation de 6 mois comme développeur Javascript
+            chez technocité m’a fait aimer le développement frontend et tout
+            particulièrement le framework Angular.
+          </p>
+          <br />
+          <p>
+            Mon travail en publicité m’a appris à toujours penser utilisateur, en
+            effet un projet quelqu’il soit doit toujours être compris afin de ne
+            pas passer à côté de la cible.
+          </p>
+          <br />
+          <p>
+            Ma formation récente de devops chez Technocité m’a donné une vue
+            d’ensemble de la chaine.
+          </p>
+        </div>
+
+        <div class="pres-droite">
+          <ul class="liste-presentation">
+            <li class="item-liste i1">
+              <span class="chiffre-style">1.</span>
+              <p class="txt-liste">UX Design expert</p>
+            </li>
+            <li class="item-liste i2">
+              <span class="chiffre-style">2.</span>
+              <p class="txt-liste">Spécialiste UI</p>
+            </li>
+            <li class="item-liste i3">
+              <span class="chiffre-style">3.</span>
+              <p class="txt-liste">Développeur Front-end</p>
+            </li>
+            <li class="item-liste i4">
+              <span class="chiffre-style">4.</span>
+              <p class="txt-liste">Développeur Back-end</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    
+    <!-- Section Range -->
+
+    <section class="section-range" id="range">
+      <h2 class="titre-exp">Mes compétences</h2>
+
+      <div class="grille-skill">
+        <div class="range-cont">
+          <p class="label-skill">JavaScript</p>
+          <p class="number-skill">90%</p>
+          <div class="barre-skill b1"></div>
+          <div class="barre-grises"></div>
+        </div>
+        <div class="range-cont">
+          <p class="label-skill">SEO</p>
+          <p class="number-skill">65%</p>
+          <div class="barre-skill b2"></div>
+          <div class="barre-grises"></div>
+        </div>
+        <div class="range-cont">
+          <p class="label-skill">UI / UX</p>
+          <p class="number-skill">90%</p>
+          <div class="barre-skill b3"></div>
+          <div class="barre-grises"></div>
+        </div>
+
+        <div class="range-cont">
+          <p class="label-skill">Node JS</p>
+          <p class="number-skill">70%</p>
+          <div class="barre-skill b4"></div>
+          <div class="barre-grises"></div>
+        </div>
+        <div class="range-cont">
+          <p class="label-skill">Wordpress</p>
+          <p class="number-skill">70%</p>
+          <div class="barre-skill b5"></div>
+          <div class="barre-grises"></div>
+        </div>
+        <div class="range-cont">
+          <p class="label-skill">Angular</p>
+          <p class="number-skill">90%</p>
+          <div class="barre-skill b6"></div>
+          <div class="barre-grises"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section -->
+
+    <section class="travail-exp" id="exp">
+      <h2 class="titre-travail-exp">Mes expériences</h2>
+
+      <div class="cont-exp-travail">
+        <div class="barre-verticale">
+          <div class="boule-ico">
+            <img src="ressources/angular-brands.svg" alt="icone gauche" />
+          </div>
+          <div class="boule-ico boule-large">
+            <img src="ressources/node.svg" alt="icone gauche" />
+          </div>
+          <div class="boule-ico boule-large">
+            <img src="ressources/ajax_log.svg" alt="icone gauche" />
+          </div>
+          <div class="boule-ico">
+            <img
+              src="ressources/js-brands.svg"
+              class="avion"
+              alt="icone gauche"
+            />
+          </div>
+          <div class="boule-ico boule-large">
+            <img src="ressources/sass-brands.svg" alt="icone gauche" />
+          </div>
+          <div class="boule-ico">
+            <img src="ressources/css3-alt-brands.svg" alt="icone gauche" />
+          </div>
+          <div class="boule-ico">
+            <img src="ressources/html5-brands.svg" alt="icone gauche" />
+          </div>
+          <div class="boule-ico">
+            <img
+              src="ressources/adobe-photoshop-svgrepo-com.svg"
+              alt="icone gauche"
+            />
+          </div>
+          <div class="boule-ico">
+            <img
+              src="ressources/adobe-illustrator-svgrepo-com.svg"
+              class="avion"
+              alt="icone gauche"
+            />
+          </div>
+        </div>
+
+        <div class="flex-cont-bloc-exp">
+          <div class="bloc">
+            <div class="contenu-bloc">
+              <p class="titre-section-bloc">
+                SmartBE Développeur freelance, 2019-...
+              </p>
+              <p class="txt-section">Intégration. Développement angular.</p>
+            </div>
+          </div>
+
+          <div class="bloc">
+            <div class="contenu-bloc">
+              <p class="titre-section-bloc">
+                Apiquiet Développeur Angular, 2019
+              </p>
+              <p class="txt-section">
+                Développement front-end d'une application pour la gestion de
+                maison de repos en collaboration avec le back-end.
+              </p>
+            </div>
+          </div>
+
+          <div class="bloc">
+            <div class="contenu-bloc">
+              <p class="titre-section-bloc">
+                Freelance Infographiste, 2005-2019
+              </p>
+              <p class="txt-section">
+                Spa, Coca Cola, Nestlé, Lutosa, Findus, Feton, ...
+              </p>
+            </div>
+          </div>
+
+          <div class="bloc">
+            <div class="contenu-bloc">
+              <p class="titre-section-bloc">
+                Studio PVH Infographiste, 1992-2012
+              </p>
+              <p class="txt-section">
+                Packaging: création, recherche de la forme modélisation 3D et
+                conception de la forme à découper Promotion: displays, affichage
+                Campagne presse: conception d'annonces et suivi des campagnes
+                Web: pages produits, inserts promotionnels (banners).
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section Parallax -->
+
+    <div class="section-parallax">
+      <p class="txt-par">un café,</p>
+      <p class="txt-par">un entretien,</p>
+      <p class="txt-par">rencontrons-nous !</p>
+    </div>
+
+    <!-- Section Contact -->
+
+    <section class="section-contact" id="contact">
+      <h2><strong>Rentrons</strong> en Contact</h2>
+
+      <div class="coordonnees">
+        <address>
+          <h3>Marc Paquet</h3>
+          <p>Charly des Bois, 21<br />
+             7090 Ronquières</p>
+          <P>0493 69 71 04</P>
+          <P><a href="mailto:marc.paquet.1973@gmail.com"
+            >marc.paquet.1973@gmail.com</a
+          ></P>
+          
+        </address>
+      </div>
+    </section>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"></script>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
