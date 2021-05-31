@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carrousel photos</title>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Poppins&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="home">
+      <a href="../index.html">
+          <img src="../img/home-solid.svg" alt="Accueil" />
+      </a>
+    </div>
+
+    <h1>Carrousel photos</h1>
+
+    <div class="slider">
+      <div class="cont-slides">
+        <img src="./imgs/1-canyongroen.jpg" class="active" />
+        <img src="./imgs/2-khumbu.jpg" />
+        <img src="./imgs/3-skaftafell.jpg" />
+      </div>
+
+      <div class="commandes">
+        <button class="left">
+          <img src="./imgs/left.svg" alt="gauche" />
+        </button>
+        <button class="right">
+          <img src="./imgs/right.svg" alt="droite" />
+        </button>
+      </div>
+      <div class="cercles">
+        <button data-clic="1" class="cercle active-cercle"></button>
+        <button data-clic="2" class="cercle"></button>
+        <button data-clic="3" class="cercle"></button>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

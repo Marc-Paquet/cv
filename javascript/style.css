@@ -1,0 +1,49 @@
+*, ::before, ::after {
+  box-sizing: border-box; 
+  padding: 0; 
+  margin: 0;
+}
+
+body {
+  background: #333;
+  font-family: 'Poppins', sans-serif;
+  max-width: 1200px;
+  min-width: 800px;
+  margin: 0 auto;
+}
+
+main {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+h1 {
+  margin-top: 3rem;
+  color: #f1f1f1;
+  text-align: center;
+  font-size: 3rem;
+}
+
+.jeu {
+  width: 45%;
+  background-color:#f1f1f1;
+  margin: 1rem;
+  padding: 3rem;
+  border-radius: 8px;
+  border: 2px solid black;
+}
+
+h2 {
+  margin-bottom: 1rem;
+}
+
+h2 a {
+  text-decoration: none;
+  color: #333;
+}
+h2 a:hover {
+  font-weight: 900;
+  color: rgb(0, 0, 0);
+}
