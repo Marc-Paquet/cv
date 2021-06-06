@@ -64,8 +64,7 @@ body {
     height: 25%;
     background: #333;
 }
-.cercle-portrait {
-    margin: 20px 0;
+.cercle-portrait {    margin: 20px 0;
     width: 150px;
     height: 150px;
     border-radius: 50%;
@@ -77,9 +76,9 @@ body {
 .cercle-portrait img {
     width: 150px;
     position: absolute;
-    top: 50%;
+    top: 0px;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translateX(-50%);
 }
 
 .logo-cercle {
