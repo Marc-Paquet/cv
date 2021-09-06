@@ -1011,6 +1011,7 @@ h1 {
 }
 
 .coordonnees address {
+    margin-bottom: 35vh;
     text-align: center;
     font-style: normal;
 }
